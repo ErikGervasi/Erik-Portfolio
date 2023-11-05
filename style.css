@@ -193,31 +193,28 @@ a{
 
 }
 
-.who-am-i{
-    background: rgba( 255, 255, 255, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
+.who-am-i {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    display: flex;
-    align-items: center;
-
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
     padding: 100px;
-
     margin-right: 30%;
     margin-left: 30%;
+    max-width: 90vh;
 }
 
-
 .photo {
-    flex: 0 0 auto;
     border-radius: 50%;
     overflow: hidden;
-    width: 150px; /* Ajuste o tamanho desejado */
-    height: 150px; /* Ajuste o tamanho desejado */
-    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    width: 150px;
+    height: 150px;
+    margin-top: -75px; 
 }
 
 .photo img {
@@ -227,8 +224,8 @@ a{
 }
 
 .about-me {
-    flex: 1;
-   padding-left: 100px;
+    margin-top: 50px;
     color: #eee7e7;
     font-size: large;
+    text-align: center;
 }
