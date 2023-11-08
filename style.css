@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: "Audiowide", sans-serif;
+    font-size: 16px;
 }
 
 
@@ -250,4 +251,69 @@ a{
 
 .div-glass {
     scrollbar-width: thin; /* Define a largura da barra de rolagem como fina (para Firefox) */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Responsividade para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+    .proj-line, .tech-line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.menu-lateral {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 20px 0;
+    }
+
+    nav.menu-lateral:hover {
+        width: 100%;
+    }
+
+    .div-glass {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .text-myprojects, .text-mytechnologies, .text-who-am-i {
+        font-size: 40px;
+    }
+
+    .who-am-i {
+        flex-direction: column;
+        margin: 0 5%;
+        padding: 20px;
+    }
+
+    .about-me {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myprojects, .mytechnologies {
+        flex-direction: column;
+    }
+
+    .project, .technology {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    nav.menu-lateral {
+        display: none;
+    }
+
+    .text-who-am-i{
+        margin-bottom: 65px;
+    }
+
 }
