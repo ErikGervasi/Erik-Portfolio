@@ -190,6 +190,11 @@ a{
     margin-top: 10px;
 }
 
+#dif-image{
+    margin-top: 50px;
+    border-radius: 0;
+}
+
 
 .proj-name{
     color: white;
