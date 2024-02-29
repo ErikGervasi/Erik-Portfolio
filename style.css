@@ -250,13 +250,17 @@
    
    
    .div-glass::-webkit-scrollbar {
-       width: 1px; /* Largura da barra de rolagem */
-   }
-   
-   
-   .div-glass {
-       scrollbar-width: thin; /* Define a largura da barra de rolagem como fina (para Firefox) */
-   }
+    width: 5px; /* Largura mais fina */
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.726); /* Cor de fundo preta */
+    border-radius: 30px;
+}
+
+.div-glass::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.637); /* Cor do polegar da barra de rolagem */
+    border-radius: 30px;
+}
+
    
    
    img {
