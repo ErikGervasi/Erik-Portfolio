@@ -163,7 +163,7 @@
        text-shadow: 3px 3px var(--cor-vermelho);
        text-align: center;
    
-       margin-top: 10%;
+       margin-top: 6%;
    }
    
    a{
@@ -207,7 +207,6 @@
        text-shadow: 3px 3px var(--cor-vermelho);
        text-align: center;
    
-       margin-top: 10%;
    
    }
    
@@ -228,35 +227,54 @@
    }
    
    .photo {
-       border-radius: 50%;
-       overflow: hidden;
-       width: 150px;
-       height: 150px;
-       margin-top: -75px; 
-   }
-   
-   .photo img {
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
-   }
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.photo:hover {
+    transform: scale(1.2);
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
    
    .about-me {
        margin-top: 50px;
        color: #eee7e7;
-       font-size: large;
+       font-size: 20px;
        text-align: center;
    }
+
+   .name {
+    
+    margin-top: 20px;
+    color: #c9c8c8;
+    text-shadow: 1px 1px var(--cor-vermelho);
+    font-size: 30px;
+    text-align: center;
+}
    
    
    .div-glass::-webkit-scrollbar {
-       width: 1px; /* Largura da barra de rolagem */
-   }
-   
-   
-   .div-glass {
-       scrollbar-width: thin; /* Define a largura da barra de rolagem como fina (para Firefox) */
-   }
+    width: 5px; 
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.726); /* Cor de fundo preta */
+    border-radius: 30px;
+}
+
+.div-glass::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.637); /* Cor do polegar da barra de rolagem */
+    border-radius: 30px;
+}
+
    
    
    img {
