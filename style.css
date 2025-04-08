@@ -8,7 +8,7 @@
    
    body {
        height: 90vh;
-       background-image: url("background_4.jpg");
+       background-image: url("/imagens/background_4.jpg");
        background-size: cover;
        background-attachment: fixed;
        font-family: "Audiowide", sans-serif;
@@ -107,9 +107,9 @@
        margin: 10px;
    
        overflow:auto;
-       width: 300px; /* Defina a largura desejada para a sua div */
-       height: 330px; /* Defina a altura desejada para a sua div */
-       white-space: normal; /* Faz com que o texto quebre linhas conforme necessário */
+       width: 300px; 
+       height: 330px; 
+       white-space: normal; 
    }
    
    .descr-proj-text{
@@ -187,12 +187,7 @@
        width: 70%;
        transition: width 1s, height 1s, background-color 1s, transform 1s;
        border-radius: 60%;
-       margin-top: 10px;
-   }
-   
-   #dif-image{
-       margin-top: 50px;
-       border-radius: 0;
+       margin-top: 40px;
    }
    
    
