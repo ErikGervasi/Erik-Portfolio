@@ -107,9 +107,9 @@
        margin: 10px;
    
        overflow:auto;
-       width: 300px; /* Defina a largura desejada para a sua div */
-       height: 330px; /* Defina a altura desejada para a sua div */
-       white-space: normal; /* Faz com que o texto quebre linhas conforme necessário */
+       width: 300px; 
+       height: 330px; 
+       white-space: normal; 
    }
    
    .descr-proj-text{
@@ -266,12 +266,12 @@
    .div-glass::-webkit-scrollbar {
     width: 5px; 
     height: 2px;
-    background-color: rgba(0, 0, 0, 0.726); /* Cor de fundo preta */
+    background-color: rgba(0, 0, 0, 0.726);
     border-radius: 30px;
 }
 
 .div-glass::-webkit-scrollbar-thumb {
-    background-color: rgba(128, 128, 128, 0.637); /* Cor do polegar da barra de rolagem */
+    background-color: rgba(128, 128, 128, 0.637); 
     border-radius: 30px;
 }
 
@@ -284,7 +284,7 @@
    
    
    
-   /* Responsividade para telas menores (tablets e smartphones) */
+   /* Telas menores (tablets e smartphones) */
    @media (max-width: 768px) {
        .proj-line, .tech-line {
            flex-direction: column;
